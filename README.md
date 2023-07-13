@@ -1,22 +1,32 @@
 # README
 
-## Installation (do this once)
+## First Time:
 
+### Setup python virtual enviroment
+
+MacOS:
 `python3 -m venv env`
 
-## Activate virtual environment (do this once everytime you run the script)
+Windows:
+`python -m vent env`
 
+### Activate virtual environment
+
+MacOS:
 `source ./env/bin/activate`
 
-## Install dependcies (do this once)
+Windows:
+`env\Scripts\activate`
+
+### Install dependcies
 
 `pip install -r requirements.txt`
 
-## Directory structure
+### Setup Directory structure
 
 Need to have the data file in the following location:
 
-### Mosquito Data
+#### Mosquito Data
 
 `<year>/Mosquito Count Graphs <year>.xlsx`
 
@@ -24,14 +34,22 @@ example:
 
 `2023/Mosquito Count Graphs 2023.xlsx`
 
-### Spray Data
+#### Spray Data
 
 `sprays.csv`
 
-### Trap sites
+#### Trap sites
 
 `trap_sites.csv`
 
-### Weather
+#### Weather
 
 `weather.csv`
+
+## Run the script
+
+MacOS:
+`python3 Data_Handler.py`
+
+Windows:
+`python Data_Handler.py`
