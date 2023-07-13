@@ -8,7 +8,7 @@ MacOS:
 `python3 -m venv env`
 
 Windows:
-`python -m vent env`
+`python -m venv env`
 
 ### Activate virtual environment
 
