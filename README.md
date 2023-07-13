@@ -18,7 +18,7 @@ MacOS:
 Windows:
 `env\Scripts\activate`
 
-### Install dependcies
+### Install dependencies
 
 `pip install -r requirements.txt`
 
